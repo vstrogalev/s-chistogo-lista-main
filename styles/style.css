@@ -71,13 +71,33 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .cover {
-  padding: 7px 0 0 20px;
+  padding: 7px 24px 0 20px;
   min-height: 198px;
   background-image: url(../images/cover.svg);
-  background-size: 90% auto;
+  background-size: 95% auto;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right center;
 }
+
+.cover__title {
+  color: #FFF;
+  font-family: EB Garamond;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.accent-span {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
 .intro {
   padding: 30px 20px 38px;
 }
