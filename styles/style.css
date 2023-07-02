@@ -171,6 +171,65 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 .how-to {
   padding: 40px 20px 60px;
 }
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card_theme_dark {
+  background: #343434;
+}
+
+.card_theme_bright {
+  color: #131313;
+  background-color: #FEE42A;
+}
+
+.card__author {
+  margin-bottom: 8px;
+}
+
+.card__author-photo {
+  display: block;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin-bottom: 8px;
+}
+
+.card__author-name {
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__content {
+}
+
+.card__title {
+  font-size: 22px;
+  font-family: EB Garamond;
+  font-weight: 500;
+  line-height: 135%;
+  margin-bottom: 8px;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 21.6px;
+}
+
+
 .footer {
   padding: 20px;
 }
