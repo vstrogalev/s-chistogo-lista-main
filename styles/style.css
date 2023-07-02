@@ -29,11 +29,54 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 
 .header {
   padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.header__logo {
+  display: block;
+  width: 78px;
+}
+.header__logo-image {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.header__menu {
+}
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.header__menu-item {
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: #F5F5F5;
+}
+
 .content {
 }
+
 .cover {
   padding: 7px 0 0 20px;
+  min-height: 198px;
+  background-image: url(../images/cover.svg);
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 .intro {
   padding: 30px 20px 38px;
