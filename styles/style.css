@@ -43,8 +43,6 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
   object-position: center;
 }
 
-.header__menu {
-}
 .header__menu-list {
   display: flex;
   flex-direction: column;
@@ -56,18 +54,12 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
   line-height: 19px;
 }
 
-.header__menu-item {
-}
-
 .header__menu-item_active .header__menu-link {
   text-decoration: none;
 }
 
 .header__menu-link {
   color: #F5F5F5;
-}
-
-.content {
 }
 
 .cover {
@@ -211,9 +203,6 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
   line-height: 135%;
 }
 
-.card__content {
-}
-
 .card__title {
   font-size: 22px;
   font-family: EB Garamond;
@@ -229,7 +218,25 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
   line-height: 21.6px;
 }
 
-
 .footer {
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+  line-height: 135%;
+}
+
+.footer__links-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #F5F5F5;
 }
