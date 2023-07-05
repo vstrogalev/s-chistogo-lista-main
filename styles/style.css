@@ -28,9 +28,9 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .header {
-  padding: 24px 20px;
   display: flex;
   justify-content: space-between;
+  padding: 24px 20px;
 }
 
 .header__logo {
@@ -47,11 +47,11 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  list-style-type: none;
   font-family: Inter;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 19px;
+  list-style-type: none;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -63,20 +63,20 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .cover {
-  padding: 7px 24px 0 20px;
   min-height: 198px;
+  padding: 7px 24px 0 20px;
   background-image: url(../images/cover.svg);
-  background-size: 95% auto;
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: 95% auto;
 }
 
 .cover__title {
   color: #FFF;
   font-family: EB Garamond;
+  font-weight: 400;
   font-size: 72px;
   font-style: normal;
-  font-weight: 400;
   line-height: 100%;
 }
 
@@ -91,14 +91,14 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .intro {
-  padding: 30px 20px 38px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding: 30px 20px 38px;
   color: #CCC;
   font-family: Inter;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: 120%;
 }
 
@@ -132,18 +132,18 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
-  font-size: 28px;
-  font-family: EB Garamond;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 115%;
   margin-bottom: 32px;
+  font-family: EB Garamond;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 115%;
 }
 
 .content-section__introduction {
+  margin-bottom: 32px;
   font-size: 20px;
   line-height: 27px;
-  margin-bottom: 32px;
 }
 
 .content-section__list {
@@ -165,15 +165,15 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .cards-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  list-style: none;
 }
 
 .card {
-  padding: 20px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 .card_theme_dark {
@@ -192,10 +192,10 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 .card__author-photo {
   display: block;
   width: 100px;
+  margin-bottom: 8px;
+  border-radius: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 100%;
-  margin-bottom: 8px;
 }
 
 .card__author-name {
@@ -204,11 +204,11 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .card__title {
-  font-size: 22px;
+  margin-bottom: 8px;
   font-family: EB Garamond;
   font-weight: 500;
+  font-size: 22px;
   line-height: 135%;
-  margin-bottom: 8px;
 }
 
 .card__text {
@@ -219,10 +219,10 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .footer {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #FEE42A;
+  padding: 20px;
 }
 
 .footer__copy {
@@ -237,6 +237,6 @@ h1, h2, h3, h4, p, ul, ol, blockquote {
 }
 
 .footer__link {
-  text-decoration: none;
   color: #F5F5F5;
+  text-decoration: none;
 }
